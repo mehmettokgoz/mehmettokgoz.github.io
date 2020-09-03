@@ -10,12 +10,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<title>Bootstrap days</title>
 
-
+	
 </head>
 <body>
 	
+	<!--Start of Navigation-->
 	<nav class="navbar navbar-expand-sm p-3 bg-dark navbar-dark">
-		  <a class="navbar-brand" href="#"><img style="width: 20px;"src="images/hacettepe.png" alt="">Website with Bootstrap tries</a>
+		  <a class="navbar-brand" href="#"><img style="width: 20px;"src="images/hacettepe.png" alt=""> Making first website with B4</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -35,24 +36,26 @@
 		</div>
 		
 	</nav>
+	<!--End of Navigaiton-->
 
 
-
+	<!--Start of information about me-->
 	<div class="container mt-5">
-		<div class="row featurette">
-			<div class="col-md-2 p-3">
-				<img style="width:150px;" class="img-fluid d-block mx-auto" src="images/me.jpg" alt="">
+		<div class="row">
+			<div class="col-md-3 p-3">
+				<img style="width: 150px;" class="img-fluid d-block mx-auto" src="images/me.jpg" alt="">
 			</div>
-			<div class="col-md-10 p-3 text-dark">
-				<h2 class="featurette-heading">hello, my name is mehmet. </h2>
-				<p class="lead">In this website I tried to create a static bootstrap website for learning new things. Back-end programming is very rooted area of web programming. But on the other side, websites have a look. I think the hardest part of web programming is front-end. Because generally programmers know how to write funtions or methods. But front-end is completely different.</p> 	
+			
+			<div class="col-md-9 p-3">
+				<h2 >hello, my name is mehmet. </h2>
+				
+				<p>In this website I tried to create a static bootstrap website for learning new things. Back-end programming is very rooted area of web programming. But on the other side, websites have a look. I think the hardest part of web programming is front-end. Because generally programmers know how to write funtions or methods. But front-end is completely different.</p> 	
 			</div>
 		</div>
-
 	</div>
+	<!--End information about me-->
 
-
-	
+	<!--Start of slider-->
     <div id="demo" class="carousel slide mt-5" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -64,22 +67,22 @@
 	    <div class="carousel-item active">
 	      <img style="max-height: 80vh;" src="images/one.jpg" class="d-block w-100" alt="...">
 	      <div class="carousel-caption ">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Museum of Fine Arts, Boston</h5>
+        <p>The Museum of Fine Arts in Boston, Massachusetts, is the 17th largest art museum in the world, measured by public gallery area.</p>
       </div>
 	    </div>
 	    <div class="carousel-item">
 	      <img style="max-height: 80vh;" src="images/two.jpg" class="d-block w-100" alt="...">
 	      <div class="carousel-caption ">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Louvre Museum, Paris</h5>
+        <p>The Louvre is the world's largest art museum and a historic monument in Paris, France.</p>
       </div>
 	    </div>
 	    <div class="carousel-item">
 	      <img style="max-height: 80vh;" src="images/three.jpg"  class="d-block w-100" alt="...">
 	      <div class="carousel-caption ">
-	        <h5>First slide label</h5>
-	        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	        <h5>Imperial War Museum, London</h5>
+	        <p>Imperial War Museums is a British national museum organisation with branches at five locations in England, three of which are in London. </p>
 	      </div>
 	    </div>
 	  </div>
@@ -93,38 +96,75 @@
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>
+	<!--End of slider-->
 
 
-	<div class="container description mt-5">
-		<div class ="row pt-5">
-			<div class="col-lg-4">
-				<img class="bd-placeholder d-block mx-auto rounded-circle" src="images/me.jpg" alt="">
-				<h1><small>First coloumn</small></h1>
-				<p>This is description</p>
+
+	<div class="container characters mt-4">
+		<div class ="row">
+			<div class="col-lg-4 mt-3">
+				<img style="width: 150px;" class="img-fluid d-block mx-auto rounded-circle" src="images/jack.jpg" alt="">
+				<h1><small>Jack Shephard</small></h1>
+				<p>The de facto leader of the crash survivors, in the show's first four seasons, Jack is very much a man of science. He serves as the antithesis of man of faith John Locke; however, his experiences in season five mold Jack into a believer, to the point of becoming John Locke's spiritual successor in the final season.</p>
+				<a class="btn btn-primary" href="#" role="button">Wath best scene</a>
 			</div>
 
-			<div class="col-lg-4 ">
-				<img style="height:150px;width: 150px; " class="bd-placeholder d-block mx-auto rounded-circle" src="images/me.jpg" alt="">
-				<h1><small >Second coloumn</small></h1>
-				<p >This is description</p>
+			<div class="col-lg-4 mt-3">
+				<img style="height:150px;width:150px; " class="bd-placeholder d-block mx-auto rounded-circle" src="images/juliet.jpg" alt="">
+				<h1><small >Juliet Burke</small></h1>
+				<p >She is a medical fertility specialist who is recruited to the Island by Richard Alpert to solve the problem of women dying during pregnancy after conceiving on the Island. Juliet is a compassionate and intelligent individual who dedicates her time to helping others, but often feels conflicted over her own needs. </p>
+				<a class="btn btn-primary" href="#" role="button">Watch best scene</a>
 			</div>
 			
-			<div class="col-lg-4">
-				<img  style="height:150px;width: 150px; " class="bd-placeholder d-block mx-auto rounded-circle" src="images/me.jpg" alt="">
-				<h1><small>Third coloumn</small></h1>
-				<p>This is description</p>
+			<div class="col-lg-4 mt-3">
+				<img  style="height:150px;width:150px; " class="bd-placeholder d-block mx-auto rounded-circle" src="images/sawyer.jpg" alt="">
+				<h1><small>James "Sawyer" Ford</small></h1>
+				<p> In the fourth season he develops a more heroic side, becoming protective of Claire Littleton and sacrificing his chance to escape so his friends can in the season finale. In the fifth season, Sawyer quickly acclimates to his new role as group leader as they are sent back through time. He falls in love with Juliet Burke .</p>
+				<a class="btn btn-primary" href="#" role="button">Watch best scene</a>
 			</div>
 		</div>
 	</div>
 
+	<hr class="divider">
+	<br>
+	<div class="container">
+		<div class="row ">
+			<div class="col-sm-7">
+				<br>
+				<h2 class="featurette-heading">what is lorem ipsum?</h2>
+				<br>
+				<p class="lead">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+			</div>
+			<div class="col-sm-5">
+				<img class="img-fluid"src="images/loremipsum.jpg"  alt="">
+			</div>
+		</div>
+
+		
+
+
+
+	</div>
+
+
 	
+    <footer class="footer text-center bg-dark p-5 mt-4 text-light">
+		<p>This website created by Mehmet Tokgöz, with bootstrap.</p>
+		<p>This website is my first front-ent try. I don't decide to that it might be end. :D</p>
+		<p>
+		  <a href="#">Back to top</a>
+		</p>
+	  </footer>
+	
+
 
 
 <!-- Bootstrap JS Scripts-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 
 </body>
 </html>
