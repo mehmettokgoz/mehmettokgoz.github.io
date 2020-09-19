@@ -10,6 +10,26 @@
 	<!--Font Awesome CDN-->
 	<script src="https://kit.fontawesome.com/2c72c65b5d.js" crossorigin="anonymous"></script>
 
+	<script>
+		
+		function showFunc() {
+
+            var desc = document.getElementById("text");
+            var read = document.getElementById("demo");
+
+		    if (desc.style.display === "none") {
+		      desc.style.display = "block";
+		      demo.textContent = ">hide details<";
+		      console.log("içerik gösterildi");
+
+		    } else {
+		      desc.style.display = "none";
+		      demo.textContent = ">show details<";
+		      console.log("içerik gizlendi");
+		    }
+        }
+	</script>
+
 </head>
 <body>
 	
@@ -46,7 +66,30 @@
 
 	<div class="main">
 
-		<h1 style="text-align: center;">in here will be projects.</h1>
+		<div class="project-section">
+			
+
+			<a href="" title="" class="project-title">making responsive website with bootstrap4</a>
+
+
+			<div class="project-description">
+
+				<h2 onclick="showFunc()" id="demo" class="read-more"><p>>read details<</h2>
+
+				<text class="desc" id="text" style="display: none;">
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, justo eu luctus tempor, odio nisl faucibus lacus, sed scelerisque tortor magna id diam. Morbi at augue faucibus, consectetur est in, pellentesque orci. Quisque scelerisque ex luctus augue efficitur, sed sagittis arcu dictum. Ut tempus, justo eu viverra luctus, massa est sagittis sem, vel lacinia enim risus vitae neque. Donec a leo ex. Nunc sed tellus eu felis laoreet eleifend. Ut dapibus sed enim sit amet consectetur. Pellentesque auctor eleifend nisl, pretium pharetra ligula.
+
+Duis massa eros, maximus et luctus sit amet, faucibus in orci. Morbi egestas sollicitudin neque, iaculis faucibus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer interdum at enim sit amet molestie. Nulla mollis sagittis nibh, eu porta ante tempor et. Pellentesque elementum sed nisi a iaculis. Donec feugiat molestie ante ut luctus. Morbi vel sodales massa. Curabitur ullamcorper vitae risus quis fringilla. Aenean fringilla odio a ipsum tempus tincidunt. Aliquam gravida dui in purus facilisis, eu imperdiet quam semper. Aenean aliquam elit nec urna interdum aliquam.</p>
+<br><br>
+					<div class="image-centered">
+						<img src="images/bootstrap.png" alt="">
+					</div>
+				</text>
+	
+				
+			</div>
+		</div>
 		
 		
 	</div>
