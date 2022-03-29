@@ -234,12 +234,8 @@ summary {
 
 
 .navbar {
-
-	
-	background: rgb(195,245,255);
-	background: linear-gradient(90deg, rgba(195,245,255,1) 0%, rgba(73,196,255,1) 50%, rgba(213,254,255,1) 100%);
-
-
+	color:white;
+	background-color: #2f3640;
 }
 
 .navbar-title {
@@ -254,16 +250,18 @@ summary {
 }
 
 .navbar-title h1 {
-	font-size: 50px;
+	font-size: 1.5vw;
 
 
 }
 
 .navbar-title p {
-	font-size: 25px;
+	font-size: 1vw;
+	margin-top: 10px;
 }
 
 .navbar-menu {
+
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -279,7 +277,7 @@ summary {
 }
 
 .navbar-menu a  {
-	color:black;
+	color:white;
 	text-decoration: none;
 }
 
@@ -307,8 +305,29 @@ summary {
 	border: none;
 	background-color: transparent;
 	text-align: center;
+
 }
 
+.featured-section {
+	background-color: #f5f6fa;
+	padding: 20px;
+	border-radius: 10px;
+	width: 95%;
+
+}
+
+
+
+.featured-section li {
+	display: inline-block;
+	width: 33%;
+}
+
+.featured-section li > a {
+	text-decoration: none;
+	color: #2f3640;
+	font-weight: bold;
+}
 @media (max-width: 768px) {
 	.row {
 		display: table;
@@ -345,13 +364,21 @@ summary {
 
 	.main {
 		padding-top: 20px;
-		width: 97%;
+		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 
 	}
 
-	
+	.featured-section {
+		width: 90%;
+	}
+
+	.featured-section li {
+		display: block;
+		line-height: 30px;
+		width: 100%;
+	}
 
 	
 
